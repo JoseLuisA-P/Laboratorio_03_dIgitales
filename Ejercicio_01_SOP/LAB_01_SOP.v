@@ -20,7 +20,7 @@ module LAB_01_SOP();
     $display("A B C| Y");
     $display("-------");
 
-    $monitor("%b %b %b | %b", A, B, C, out);
+    $monitor("%b %b %b| %b", A, B, C, out);
     A = 0; B = 0; C=0;
     #1 A = 0; B = 0; C=1;
     #1 A = 0; B = 1; C=0;
