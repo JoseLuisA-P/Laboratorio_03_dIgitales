@@ -3,7 +3,7 @@ module LAB01_POS();
 // POS de la tabla01 del laboratorio 3
 
   reg A, B, C;
-  wire NA, NB, NC, w1, w2, w3, w4, w5, out;
+  wire NA, NB, NC, w1, w2, w3, w4, out;
 
 
   not s1(NA,A); //(salida, entradas)
@@ -19,7 +19,7 @@ module LAB01_POS();
     $display("A B C| Y");
     $display("-------");
 
-    $monitor("%b %b %b | %b", A, B, C, out);
+    $monitor("%b %b %b| %b", A, B, C, out);
     A = 0; B = 0; C=0;
     #1 A = 0; B = 0; C=1;
     #1 A = 0; B = 1; C=0;
