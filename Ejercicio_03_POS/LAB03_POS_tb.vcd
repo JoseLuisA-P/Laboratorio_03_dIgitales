@@ -1,0 +1,55 @@
+$date
+	Thu Jul 30 13:16:34 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module LAB03_POS $end
+$var wire 1 ! NA $end
+$var wire 1 " NB $end
+$var wire 1 # NC $end
+$var wire 1 $ ND $end
+$var wire 1 % out $end
+$var wire 1 & w1 $end
+$var wire 1 ' w2 $end
+$var wire 1 ( w3 $end
+$var wire 1 ) w4 $end
+$var wire 1 * w5 $end
+$var wire 1 + w6 $end
+$var wire 1 , w7 $end
+$var wire 1 - w8 $end
+$var wire 1 . w9 $end
+$var reg 1 / A $end
+$var reg 1 0 B $end
+$var reg 1 1 C $end
+$var reg 1 2 D $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+02
+01
+00
+0/
+1.
+1-
+1,
+1+
+1*
+1)
+1(
+1'
+1&
+1%
+1$
+1#
+1"
+1!
+$end
+#9
+0!
+1/
+#17
