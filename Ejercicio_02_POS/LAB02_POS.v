@@ -1,6 +1,6 @@
 module LAB02_POS();
 
-// POS de la tabla01 del laboratorio 3
+// SOP de la tabla02 del laboratorio 3
 
   reg A, B, C;
   wire NA, NB, NC, w1, w2, w3, w4, w5, out;
@@ -20,7 +20,7 @@ module LAB02_POS();
     $display("A B C| Y");
     $display("-------");
 
-    $monitor("%b %b %b | %b", A, B, C, out);
+    $monitor("%b %b %b| %b", A, B, C, out);
     A = 0; B = 0; C=0;
     #1 A = 0; B = 0; C=1;
     #1 A = 0; B = 1; C=0;

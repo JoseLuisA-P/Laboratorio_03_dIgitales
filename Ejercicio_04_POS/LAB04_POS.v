@@ -1,6 +1,6 @@
 module LAB04_POS();
 
-// POS de la tabla01 del laboratorio 3
+// POS de la tabla04 del laboratorio 3
 
   reg A, B, C, D;
   wire NA, NB, NC, ND, w1, w2, w3, w4, w5, w6, w7, w8, w9, out;
