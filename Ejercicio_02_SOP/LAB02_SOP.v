@@ -3,18 +3,16 @@ module LAB02_SOP();
 // POS de la tabla01 del laboratorio 3
 
   reg A, B, C;
-  wire NA, NB, NC, w1, w2, w3, w4, w5, out;
+  wire NA, NB, NC, w1, w2, w3, out;
 
 
   not s1(NA,A); //(salida, entradas)
   not s2(NB,B);
   not s3(NC,C);
-  or sum1(w1,A,B,C);
-  or sum2(w2,A,NB,C);
-  or sum3(w3,A,NB,NC);
-  or sum4(w4,NA,B,C);
-  or sum5(w5,NA,B,NC);
-  and mult1(out,w1,w2,w3,w4,w5);
+  and mult1(w1,NA,NB,NC);
+  and mult2(w2,NA,B,NC);
+  and mult3(w3,A,B,C);
+  or sum1(out,w1,w2,w3);
 
   initial begin
     $display("A B C| Y");
