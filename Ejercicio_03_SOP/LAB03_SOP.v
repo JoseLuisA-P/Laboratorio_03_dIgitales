@@ -10,16 +10,14 @@ module LAB03_SOP();
   not s2(NB,B);
   not s3(NC,C);
   not s4(ND,D);
-  or sum1(w1,A,NB,C,D);
-  or sum2(w2,A,NB,C,ND);
-  or sum3(w3,A,NB,NC,D);
-  or sum4(w4,A,NB,NC,ND);
-  or sum5(w5,NA,B,C,ND);
-  or sum6(w6,NA,B,NC,ND);
-  or sum7(w7,NA,NB,C,D);
-  or sum8(w8,NA,NB,C,ND);
-  or sum9(w9,NA,NB,NC,ND);
-  and mult1(out,w1,w2,w3,w4,w5,w6,w7,w8,w9);
+  and mult1(w1,NA,NB,NC,ND);
+  and mult2(w2,NA,NB,NC,D);
+  and mult3(w3,NA,NB,C,ND);
+  and mult4(w4,NA,NB,C,D);
+  and mult5(w5,A,NB,NC,ND);
+  and mult6(w6,A,NB,C,ND);
+  and mult7(w7,A,B,C,ND);
+  or sum1(out,w1,w2,w3,w4,w5,w6,w7);
 
   initial begin
     $display("A B C D| Y");
