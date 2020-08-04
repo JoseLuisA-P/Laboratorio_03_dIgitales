@@ -22,7 +22,6 @@ module LAB04_SOP();
   initial begin
     $display("A B C D| Y");
     $display("----------");
-
     $monitor("%b %b %b %b| %b", A, B, C, D, out);
     A = 0; B = 0; C=0; D=0;
     #1 A = 0; B = 0; C = 0; D = 0;
